@@ -1,0 +1,384 @@
+<html>
+<head><style type='text/css'>
+body, table {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 12;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+}
+
+a {
+    text-decoration: none;
+}
+
+.title {
+    font-style: italic;
+}
+
+.selected {
+    background-color: #ffffcc;
+}
+
+.status_done {
+    background-color: #eeffee;
+}
+
+.status_passed {
+    background-color: #ccffcc;
+}
+
+.status_failed {
+    background-color: #ffcccc;
+}
+
+.breakpoint {
+    background-color: #cccccc;
+    border: 1px solid black;
+}
+</style><title>Test suite results</title></head>
+<body>
+<h1>Test suite results </h1>
+
+<table>
+<tr>
+<td>result:</td>
+<td>passed</td>
+</tr>
+<tr>
+<td>totalTime:</td>
+<td>46</td>
+</tr>
+<tr>
+<td>numTestTotal:</td>
+<td>4</td>
+</tr>
+<tr>
+<td>numTestPasses:</td>
+<td>4</td>
+</tr>
+<tr>
+<td>numTestFailures:</td>
+<td>0</td>
+</tr>
+<tr>
+<td>numCommandPasses:</td>
+<td>6</td>
+</tr>
+<tr>
+<td>numCommandFailures:</td>
+<td>0</td>
+</tr>
+<tr>
+<td>numCommandErrors:</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Selenium Version:</td>
+<td>2.53</td>
+</tr>
+<tr>
+<td>Selenium Revision:</td>
+<td>.1</td>
+</tr>
+<tr>
+<td>
+<table id="suiteTable" cellpadding="1" cellspacing="1" border="1" class="selenium"><tbody>
+<tr class="title status_passed"><td><b>Test Suite</b></td></tr>
+<tr class=" status_passed"><td><a href="#testresult0">case1</a></td></tr>
+<tr class=" status_passed"><td><a href="#testresult1">case2</a></td></tr>
+<tr class=" status_passed"><td><a href="#testresult2">case3</a></td></tr>
+<tr class=" status_passed"><td><a href="#testresult3">case4</a></td></tr>
+</tbody></table>
+
+
+</td>
+<td>&nbsp;</td>
+</tr>
+</table><table><tr>
+<td><a name="testresult0">case1.html</a><br/><div>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr class="title status_passed"><td rowspan="1" colspan="3">case1</td></tr>
+</thead><tbody>
+<tr class=" status_done" style="cursor: pointer;">
+	<td>open</td>
+	<td>/open-eshop-2.0.1/oc-panel/auth/login/oc-panel</td>
+	<td></td>
+</tr>
+<tr class=" status_done" style="cursor: pointer;">
+	<td>click</td>
+	<td>css=i.glyphicon.glyphicon-user</td>
+	<td></td>
+</tr>
+<tr class=" status_done" style="cursor: pointer;">
+	<td>type</td>
+	<td>css=input.form-control[name="email"]</td>
+	<td>demo@open-eshop.com</td>
+</tr>
+<tr class=" status_done" style="cursor: pointer;">
+	<td>type</td>
+	<td>css=input.form-control[name="password"]</td>
+	<td>demo</td>
+</tr>
+<tr class=" status_done" style="cursor: pointer;">
+	<td>click</td>
+	<td>css=button.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr class=" status_done" style="cursor: pointer;">
+	<td>waitForTitle</td>
+	<td>Welcome - open-eshop</td>
+	<td></td>
+</tr>
+<tr class=" status_passed" style="cursor: pointer;">
+	<td>assertTitle</td>
+	<td>Welcome - open-eshop</td>
+	<td></td>
+</tr>
+</tbody></table>
+
+
+</div></td>
+<td>&nbsp;</td>
+</tr><tr>
+<td><a name="testresult1">case2.html</a><br/><div>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr class="title status_passed"><td rowspan="1" colspan="3">case2</td></tr>
+</thead><tbody>
+<tr class=" status_done" style="cursor: pointer;">
+	<td>open</td>
+	<td>/open-eshop-2.0.1/oc-panel</td>
+	<td></td>
+</tr>
+<tr class=" status_done" style="cursor: pointer;">
+	<td>click</td>
+	<td>css=span.glyphicon-th</td>
+	<td></td>
+</tr>
+<tr class=" status_done" style="cursor: pointer;">
+	<td>click</td>
+	<td>css=i.glyphicon-tag</td>
+	<td></td>
+</tr>
+<tr class=" status_done" style="cursor: pointer;">
+	<td>waitForElementPresent</td>
+	<td>css=i.glyphicon-pencil</td>
+	<td></td>
+</tr>
+<tr class=" status_passed" style="cursor: pointer;">
+	<td>assertElementPresent</td>
+	<td>css=i.glyphicon-pencil</td>
+	<td></td>
+</tr>
+<tr class=" status_done" style="cursor: pointer;">
+	<td>click</td>
+	<td>css=i.glyphicon-pencil</td>
+	<td></td>
+</tr>
+<tr class=" status_done" style="cursor: pointer;">
+	<td>waitForElementPresent</td>
+	<td>css=label.control-label</td>
+	<td></td>
+</tr>
+<tr class=" status_done" style="cursor: pointer;">
+	<td>store</td>
+	<td>abyr2valg</td>
+	<td>nazvanie</td>
+</tr>
+<tr class=" status_done" style="cursor: pointer;">
+	<td>type</td>
+	<td>css=input[id="name"]</td>
+	<td>${nazvanie}</td>
+</tr>
+<tr class=" status_done" style="cursor: pointer;">
+	<td>type</td>
+	<td>css=input[id="number_coupons"]</td>
+	<td>23</td>
+</tr>
+<tr class=" status_done" style="cursor: pointer;">
+	<td>type</td>
+	<td>css=input[name="valid_date"]</td>
+	<td>1998-11-20</td>
+</tr>
+<tr class=" status_done" style="cursor: pointer;">
+	<td>click</td>
+	<td>css=button[name="submit"]</td>
+	<td></td>
+</tr>
+<tr class=" status_done" style="cursor: pointer;">
+	<td>waitForElementPresent</td>
+	<td>css=div.alert.alert-success</td>
+	<td>? SuccessCoupon ${nazvanie} created</td>
+</tr>
+<tr class=" status_passed" style="cursor: pointer;">
+	<td>assertText</td>
+	<td>css=div.alert.alert-success</td>
+	<td>? SuccessCoupon ${nazvanie} created</td>
+</tr>
+</tbody></table>
+
+
+</div></td>
+<td>&nbsp;</td>
+</tr><tr>
+<td><a name="testresult2">case3.html</a><br/><div>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr class="title status_passed"><td rowspan="1" colspan="3">case3</td></tr>
+</thead><tbody>
+<tr class=" status_done" style="cursor: pointer;">
+	<td>open</td>
+	<td>/open-eshop-2.0.1/oc-panel/Coupon</td>
+	<td></td>
+</tr>
+<tr class=" status_done" style="cursor: pointer;">
+	<td>type</td>
+	<td>css=input.form-control[name="name"]</td>
+	<td>${nazvanie}</td>
+</tr>
+<tr class=" status_done" style="cursor: pointer;">
+	<td>click</td>
+	<td>css=button.btn</td>
+	<td></td>
+</tr>
+<tr class=" status_done" style="cursor: pointer;">
+	<td>waitForTable</td>
+	<td>//div[@id='content']//table.1.0</td>
+	<td>${nazvanie}</td>
+</tr>
+<tr class=" status_done" style="cursor: pointer;">
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr class=" status_done" style="cursor: pointer;">
+	<td>click</td>
+	<td>css=i.glyphicon-trash</td>
+	<td></td>
+</tr>
+<tr class=" status_passed" style="cursor: pointer;">
+	<td>assertElementPresent</td>
+	<td>css=button.confirm</td>
+	<td></td>
+</tr>
+<tr class=" status_done" style="cursor: pointer;">
+	<td>waitForElementPresent</td>
+	<td>css=div.showSweetAlert.visible</td>
+	<td></td>
+</tr>
+<tr class=" status_done" style="cursor: pointer;">
+	<td>click</td>
+	<td>css=button.confirm</td>
+	<td></td>
+</tr>
+<tr class=" status_done" style="cursor: pointer;">
+	<td>waitForNotVisible</td>
+	<td>//div[@id='content']//table.1.0</td>
+	<td></td>
+</tr>
+</tbody></table>
+
+
+</div></td>
+<td>&nbsp;</td>
+</tr><tr>
+<td><a name="testresult3">case4.html</a><br/><div>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr class="title status_passed"><td rowspan="1" colspan="3">case4</td></tr>
+</thead><tbody>
+<tr class=" status_done" style="cursor: pointer;">
+	<td>open</td>
+	<td>/open-eshop-2.0.1/oc-panel/</td>
+	<td></td>
+</tr>
+<tr class=" status_done" style="cursor: pointer;">
+	<td>click</td>
+	<td>css=a.btn.dropdown-toggle.btn-success.navbar-btn</td>
+	<td></td>
+</tr>
+<tr class=" status_passed" style="cursor: pointer;">
+	<td>assertText</td>
+	<td>css=i.glyphicon-off</td>
+	<td></td>
+</tr>
+<tr class=" status_done" style="cursor: pointer;">
+	<td>click</td>
+	<td>css=i.glyphicon-off</td>
+	<td></td>
+</tr>
+<tr class=" status_done" style="cursor: pointer;">
+	<td>waitForTitle</td>
+	<td>Login - open-eshop</td>
+	<td></td>
+</tr>
+<tr class=" status_passed" style="cursor: pointer;">
+	<td>assertTitle</td>
+	<td>Login - open-eshop</td>
+	<td></td>
+</tr>
+</tbody></table>
+
+
+</div></td>
+<td>&nbsp;</td>
+</tr></table><pre>
+info: Starting test /selenium-server/tests/case1.html
+info: Executing: |open | /open-eshop-2.0.1/oc-panel/auth/login/oc-panel |  |
+info: Executing: |click | css=i.glyphicon.glyphicon-user |  |
+info: Executing: |type | css=input.form-control[name=&quot;email&quot;] | demo@open-eshop.com |
+info: Executing: |type | css=input.form-control[name=&quot;password&quot;] | demo |
+info: Selenium 1.0 (Core, RC, etc) is no longer under active development. Please update to WebDriver ASAP
+info: Executing: |click | css=button.btn.btn-primary |  |
+info: Executing: |waitForTitle | Welcome - open-eshop |  |
+info: Executing: |assertTitle | Welcome - open-eshop |  |
+info: Starting test /selenium-server/tests/case2.html
+info: Executing: |open | /open-eshop-2.0.1/oc-panel |  |
+info: Executing: |click | css=span.glyphicon-th |  |
+info: Selenium 1.0 (Core, RC, etc) is no longer under active development. Please update to WebDriver ASAP
+info: Executing: |click | css=i.glyphicon-tag |  |
+info: Executing: |waitForElementPresent | css=i.glyphicon-pencil |  |
+info: Executing: |assertElementPresent | css=i.glyphicon-pencil |  |
+info: Executing: |click | css=i.glyphicon-pencil |  |
+info: Selenium 1.0 (Core, RC, etc) is no longer under active development. Please update to WebDriver ASAP
+info: Executing: |waitForElementPresent | css=label.control-label |  |
+info: Executing: |store | abyr2valg | nazvanie |
+info: Executing: |type | css=input[id=&quot;name&quot;] | ${nazvanie} |
+info: Executing: |type | css=input[id=&quot;number_coupons&quot;] | 23 |
+info: Selenium 1.0 (Core, RC, etc) is no longer under active development. Please update to WebDriver ASAP
+info: Executing: |type | css=input[name=&quot;valid_date&quot;] | 1998-11-20 |
+info: Executing: |click | css=button[name=&quot;submit&quot;] |  |
+info: Selenium 1.0 (Core, RC, etc) is no longer under active development. Please update to WebDriver ASAP
+info: Executing: |waitForElementPresent | css=div.alert.alert-success | ? SuccessCoupon ${nazvanie} created |
+info: Executing: |assertText | css=div.alert.alert-success | ? SuccessCoupon ${nazvanie} created |
+info: Starting test /selenium-server/tests/case3.html
+info: Executing: |open | /open-eshop-2.0.1/oc-panel/Coupon |  |
+info: Executing: |type | css=input.form-control[name=&quot;name&quot;] | ${nazvanie} |
+info: Executing: |click | css=button.btn |  |
+info: Selenium 1.0 (Core, RC, etc) is no longer under active development. Please update to WebDriver ASAP
+info: Executing: |waitForTable | //div[@id=&apos;content&apos;]//table.1.0 | ${nazvanie} |
+info: Executing: |pause | 500 |  |
+info: Executing: |click | css=i.glyphicon-trash |  |
+info: Executing: |assertElementPresent | css=button.confirm |  |
+info: Executing: |waitForElementPresent | css=div.showSweetAlert.visible |  |
+info: Executing: |click | css=button.confirm |  |
+info: Executing: |waitForNotVisible | //div[@id=&apos;content&apos;]//table.1.0 |  |
+info: Starting test /selenium-server/tests/case4.html
+info: Executing: |open | /open-eshop-2.0.1/oc-panel/ |  |
+info: Selenium 1.0 (Core, RC, etc) is no longer under active development. Please update to WebDriver ASAP
+info: Executing: |click | css=a.btn.dropdown-toggle.btn-success.navbar-btn |  |
+info: Executing: |assertText | css=i.glyphicon-off |  |
+info: Executing: |click | css=i.glyphicon-off |  |
+info: Executing: |waitForTitle | Login - open-eshop |  |
+info: Executing: |assertTitle | Login - open-eshop |  |
+info: Selenium 1.0 (Core, RC, etc) is no longer under active development. Please update to WebDriver ASAP
+</pre></body></html>
